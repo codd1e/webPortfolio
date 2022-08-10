@@ -9,6 +9,10 @@ body{
 a{
     text-decoration: none;
 }
+ul, li{
+    list-style: none;
+    padding: 0;
+}
 .container{
     max-width: 870px;
     margin: 0 auto;
@@ -37,4 +41,60 @@ a{
 }
 .nav-link.active{
     font-weight: bold;
+}
+.main{
+    padding-top: 70px;
+}
+.main .container{
+    display: flex;
+    align-items: center;
+}
+.main-avatar{
+    max-width: 212px;
+}
+
+.main-info{
+    margin-left: 27px;
+}
+.main-title{
+    font-size: 48px;
+    line-height: 125%;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    padding: 0;
+}
+.main-description{
+    font-size: 24px;
+    line-height: 135%;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+    max-width: 510px;
+}
+.main-description span{
+    color: #BF7506;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+}
+.social-link{
+    padding: 8px;
+}
+.main-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cv-download{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #BF7506;
+    padding: 7px 5px 8px;
+}
+.cv-text{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: bold;
+    color: #211B12;
 }
