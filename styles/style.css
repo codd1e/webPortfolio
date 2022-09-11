@@ -98,3 +98,268 @@ ul, li{
     font-weight: bold;
     color: #211B12;
 }
+.card{
+    max-width: 400px;
+}
+.card-logo{
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #BF7506;
+    margin: 16px 0 8px 16px;
+}
+.technologies-list{
+    display: flex;
+    align-items: flex-start;
+}
+.technology-item{
+    margin-right: 4px;
+    border: 1px solid #DD9C3C;
+    border-radius: 4px;
+    padding: 5px 8px 4px 8px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 150%;
+    color: #211B12;
+}
+.card-desc{
+    margin: 16px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    color: #211B12;
+}
+.card-link{
+    margin-left: 16px;
+    margin-right: 25px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #BF7506;
+    padding: 7px;
+}
+.about-me{
+    margin-top: 120px;
+}
+.about-me .container{
+    display: flex;
+}
+.myPhoto{
+    border-radius: 20px;
+    width: 360px;
+    margin-right: 56px;
+}
+.portfolio{
+    max-width: 454px;
+}
+.welcome{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #211B12;
+    margin-bottom: 4px;
+}
+.my-name{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #BF7506;
+    margin-bottom: 16px;
+}
+.me-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+    margin-bottom: 16px;
+}
+.my-skills{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #DD9C3C;
+    margin-bottom: 16px;
+}
+.me-desc_2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+    margin-bottom: 32px;
+}
+.signature{
+    max-width: 200px;
+}
+.skills{
+    margin-top: 40px;
+}
+.skills-title{
+    margin-bottom: 13px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #211B12;
+}
+.skills .technology-item{
+    margin-right: 4px;
+    border: 1px solid #DD9C3C;
+    border-radius: 4px;
+    padding: 5px 8px 4px 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+}
+.feedback {
+    position: relative;
+    padding: 80px 0 160px;
+}
+.feedback_hand {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    width: 25%;
+}
+.input_group {
+    position: relative;
+    margin-bottom: 24px;
+}
+.input_label {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #83807C;
+    padding: 0 8px;
+    background: #FFFFFF;
+    top: 0;
+    left: 16px;
+}
+.input_group {
+    padding-top: 9px;
+}
+.input {
+    border: 3px solid #E0DEDC;
+    border-radius: 4px;
+    width: 100%;
+    height: 56px;
+}
+.textarea {
+    min-height: 140px;
+}
+.form-container {
+    max-width: 435px;
+    margin: auto;
+}
+.submit_button {
+    padding: 7px 8px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+    border: none;
+    border-bottom: 2px solid  #BF7506;
+    background-color: #fff;
+    cursor: pointer;
+}
+.button_group {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer {
+    margin-bottom: 16px;
+    text-align: center;
+}
+@media (max-width: 1024px) {
+    .container {
+        max-width: 760px;
+    }
+    .card {
+        max-width: 350px;
+    }
+}
+@media (max-width: 790px) {
+    .container {
+        max-width: 576px;
+    }
+    .header_photo {
+        max-width: 150px;
+    }
+    .header_strong {
+        font-size: 36px;
+    }
+    .header_heading {
+        font-size: 18px;
+    }
+    .cv-download {
+        margin-left: 15px;
+    }
+    .card {
+        max-width: 45%;
+    }
+    .card_text_wrapper {
+        padding: 8px 0;
+    }
+    .developer {
+        flex-direction: column;
+    }
+    .developer_photo {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+    .developer_about {
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .feedback_hand {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+    .header {
+        padding-top: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header_links,
+    .cards,
+    .navbar  {
+        flex-direction: column;
+    }
+    .cv_download {
+        margin-left: 0;
+    }
+    .card {
+        max-width: 100%;
+    }
+    .tags {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 480px) {
+    .form-container {
+        width: 90%;
+    }
+    .nav_list {
+        flex-direction: column;
+    }
+}
+.nav-link {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
