@@ -26,6 +26,7 @@ ul, li{
     text-align: center;
     justify-content: space-between;
 }
+
 .nav-list{
     list-style: none;
     display: flex;
@@ -48,6 +49,7 @@ ul, li{
 .main .container{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .main-avatar{
     max-width: 212px;
@@ -155,6 +157,7 @@ ul, li{
 }
 .about-me .container{
     display: flex;
+    flex-wrap: wrap;
 }
 .myPhoto{
     border-radius: 20px;
@@ -370,4 +373,3 @@ ul, li{
     margin-left: 0;
     margin-bottom: 10px;
 }
-
