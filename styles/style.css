@@ -100,9 +100,16 @@ ul, li{
 }
 .card{
     max-width: 400px;
+    margin-top: 5vh;
+}
+
+.cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .card-logo{
-    width: 100%;
+    width: 80%;
     height: 300px;
     border-radius: 4px;
 }
@@ -363,3 +370,4 @@ ul, li{
     margin-left: 0;
     margin-bottom: 10px;
 }
+
