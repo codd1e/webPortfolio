@@ -31,6 +31,7 @@ ul, li{
     list-style: none;
     display: flex;
     padding: 0;
+    flex-wrap: wrap;
 }
 .nav-item{
     margin-left: 24px;
@@ -228,6 +229,10 @@ ul, li{
     line-height: 150%;
     color: #211B12;
 }
+.technologies-list {
+    display: flex;
+    flex-wrap: wrap;
+}
 .feedback {
     position: relative;
     padding: 80px 0 160px;
@@ -302,6 +307,8 @@ ul, li{
 @media (max-width: 790px) {
     .container {
         max-width: 576px;
+        justify-content: center;
+        align-items: center;
     }
     .header_photo {
         max-width: 150px;
